@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="span3 news_separator">
+        {% for news in news_list %}
+            <h3>{{ news.title }}</h3>
+            <p>{{ news.body }}</p>
+        {% endfor %}
+    </div>
+    <div class="span8">
+        tartalom
+    </div>
+{% endblock %}

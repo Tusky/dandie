@@ -1,0 +1,20 @@
+body{
+    background-image: url("../img/bg.jpg");
+}
+
+.news_separator{
+    border-right: 1px solid white;
+    padding-right: 10px;
+}
+
+.darkwell{
+    padding: 5px;
+    min-height:20px;
+    margin-bottom:20px;
+    background-color:black;
+    border:1px solid #e3e3e3;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}

@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="span3 news_separator">
+            <h3><a href="{% url "specific_news" news.id %}">{{ news.title }}</a></h3>
+            <p>{{ news.body }}</p>
+    </div>
+    <div class="span8">
+    tartalom
+    </div>
+{% endblock %}
